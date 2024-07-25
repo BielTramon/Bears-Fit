@@ -5,23 +5,24 @@
 }
 
 .cabesalho{
-    background-color: #274c77;
-    height: 125px;
+    background-color: #ffffff;
+    height: 110px;
 }
 
 .logo{
     display: flex;
+    margin-left: 20px;
 }
 
 .topicos{
     display: flex;
-    padding-left: 960px;
+    padding-left: 830px;
 }
 
 .topicos a{
     text-align: center;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 16px;
     margin: -70px 0px 0px 80px;
 }
@@ -139,7 +140,7 @@
 .click{
     display: flex;
     justify-content: center;
-    margin: 70px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
 }
 
 .anuncio{
@@ -147,7 +148,7 @@
     width: 800px;
     height: 300px;
     border-radius: 60px;
-    background-color: #274c77;
+    background-color: rgb(32, 32, 32);
 }
 
 .posisao{
@@ -161,19 +162,66 @@
     width: 200px;
     height: 50px;
     border-radius: 60px;
-    background-color: #000000;
+    background-color: #e63946;
     align-items: center;
     justify-content: center;
-    margin: 0px 100px 0px 0px;
+    margin: 0px 80px 0px 100px;
 }
 
 .Botao a{
     display: flex;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .txt{
     display: flex;
     align-items: center;
+    text-align: center;
+    margin: 0px 55px 0px 0px;
+    color: white;
+}
+
+.clickP{
+    display: flex;
+    justify-content: center;
+}
+
+.anuncioP{
+    display: flex;
+    width: 800px;
+    height: 300px;
+    border-radius: 60px;
+    background-color: rgb(32, 32, 32);
+}
+
+.posisaoP{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.BotaoP{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: #e63946;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 80px 0px 100px;
+}
+
+.BotaoP a{
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.txtP{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0px 55px 0px 0px;
+    color: white;
 }
