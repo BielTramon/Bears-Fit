@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .cabesalho{
     background-color: #ffffff;
     height: 110px;
+    box-shadow: 1px 1px 10px 1px;
 }
 
 .logo{
@@ -16,25 +17,25 @@
 
 .topicos{
     display: flex;
-    padding-left: 830px;
+    padding-left: 700px;
 }
 
 .topicos a{
     text-align: center;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-size: 16px;
-    margin: -70px 0px 0px 80px;
+    font-size: 18px;
+    margin: -79px 0px 0px 110px;
 }
 
 .fundo{
-    background-color: #e7ecef;
+    background-color: #e7ecefc2;
     width: 100%;
     height: 650px;
 }
 
 .fundoHome{
-    background-color: #e7ecef;
+    background-color: #e7ecefc2;
     width: 100%;
     height: 1650px;
 }
@@ -48,7 +49,7 @@
     margin-top: 15%;
     background-color: #ffffff;
     width: 400px;
-    height: 500px;
+    height: 515px;
     text-align: center;
     border-radius: 20px;
     border-width: 30px;
@@ -56,8 +57,13 @@
     justify-content: center;
 }
 
+.cadastro h1{
+    color: #e63946;
+}
+
+
 .cadastro label{
-    color: rgb(0, 0, 0);
+    color: #e63946;
     padding-right: 165px;
 }
 
@@ -65,7 +71,7 @@
     margin-top: 20%;
     background-color: #ffffff;
     width: 400px;
-    height: 440px;
+    height: 480px;
     text-align: center;
     border-radius: 20px;
     border-width: 30px;
@@ -74,7 +80,7 @@
 }
 
 .login label{
-    color: rgb(0, 0, 0);
+    color: rgb(224, 70, 70);
     padding-right: 165px;
 }
 
@@ -86,23 +92,27 @@
     padding-top: 20px;
 }
 
+.login h1{
+    color: #e63946;
+}
+
 .botao input{
     text-align: center;
     justify-content: center;
     align-items: center;
     width: 220px;
     border-radius: 15px;
-    background-color: rgb(0, 0, 0);
+    background-color: #e63946;
     border-width: 0px;
     height: 40px;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .input{
     width: 220px;
     border-radius: 22px;
-    border: 2px rgb(0, 0, 0) solid;
+    border: 2px #e63946 solid;
     padding: 5px;
     margin: 0px 0px 20px 21%;
 }
@@ -189,8 +199,8 @@
 
 .anuncioP{
     display: flex;
-    width: 800px;
-    height: 300px;
+    width: 900px;
+    height: 600px;
     border-radius: 60px;
     background-color: rgb(32, 32, 32);
 }
