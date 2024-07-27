@@ -55,10 +55,12 @@
     border-width: 30px;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 0px 10px 0px #535353;
 }
 
 .cadastro h1{
     color: #e63946;
+    font-size: 35px;
 }
 
 
@@ -77,6 +79,7 @@
     border-width: 30px;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 0px 15px 0px #535353;
 }
 
 .login label{
@@ -94,6 +97,7 @@
 
 .login h1{
     color: #e63946;
+    font-size: 35px;
 }
 
 .botao input{
@@ -199,10 +203,11 @@
 
 .anuncioP{
     display: flex;
-    width: 900px;
-    height: 500px;
+    width: 850px;
+    height: 450px;
     border-radius: 60px;
     background-color: rgb(32, 32, 32);
+    box-shadow: 1px 1px 10px 5px #7a7878;
 }
 
 .posisaoP{
@@ -219,7 +224,7 @@
     background-color: #e63946;
     align-items: center;
     justify-content: center;
-    margin: 0px 0px 0px -280px;
+    margin: 0px 0px 0px 200px;
 }
 
 .BotaoP a{
@@ -231,10 +236,11 @@
 .txtP{
     display: flex;
     text-align: center;
-    margin: 500px 0px 0px 70px;
+    margin: 390px 0px 0px -410px;
     color: white;
 }
 
 .plano1{
-    margin: 100px 0px 0px 50px;
+    display: flex;
+    margin: 68px 0px 0px 50px;
 }
