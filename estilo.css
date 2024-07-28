@@ -244,3 +244,31 @@
     display: flex;
     margin: 68px 0px 0px 50px;
 }
+
+
+.menu{
+    display: grid;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.menu a{
+    text-decoration: none;
+    padding-top: 30px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.menuAdm{
+    background-color: #e63946;
+    width: 500px;
+    height: 550px;
+    border-radius: 50px;
+    margin-top: 70px;
+    box-shadow: 1px 1px 20px 5px rgb(147, 145, 145);
+}
+
+.adm{
+    display: flex;
+    justify-content: center;
+}
